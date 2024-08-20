@@ -6,6 +6,7 @@ import Teams from './components/Teams';
 import Register from './components/Register';
 // import Upload from './components/Upload';
 import Quiz from './components/Quiz';
+import Demo from './components/Demo';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/register" element={<Register/>} />
         {/* <Route path="/upload" element={<Upload />} /> */}
+        <Route path="/demo" element={<Demo/>} />
       </Routes>
     </Router>
   );
